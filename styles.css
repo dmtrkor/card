@@ -1,0 +1,58 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    font-family: arial;
+}
+.head {
+    margin-top: 20px
+}
+p {
+    width: 70%;
+    padding: 10px;
+    padding-left: 20px;
+    color: #fff;
+    background-color: #db6423;
+    box-sizing: border-box;
+    margin:  20px 0 20px -4px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.card {  
+    margin-top: 100px;
+    background-color: #9fcdcd;
+    width: 400px;
+    border-radius: 15px;
+    background-image: url(img/moon_flag.png);
+    background-position: 262px 86px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+input {
+    width: 60%;
+    display: block;
+    background-color: #a9d2d2;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #6f9698;
+    padding: 10px;
+}
+.card input:nth-child(1) {
+    margin-top: 18px;
+}
+::placeholder {
+    padding: 10px;
+    color: #5f7b7c;
+    font-size: 15px;
+}
+ul {
+    margin: 0;
+    padding: 0 0 10px 0;
+    list-style-type: none;
+    display: flex;
+    width: 70%;
+}
+span {
+    color: #466c8d;
+    font-size: 12px;
+}
