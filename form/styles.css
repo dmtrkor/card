@@ -1,0 +1,15 @@
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+.main {
+    width: 100%;
+    display: flex;
+}
+.reg {
+    width: 58%;
+    display: ;
+}
+.det {
+    width: 38%;
+}
